@@ -133,4 +133,8 @@
     main .container .right {
         display: none;
     }
+
+    .caption-texto p{
+        font-size: 18px;
+    }
 }

@@ -34,6 +34,7 @@
 
 .middle .liked-by {
     display: flex;
+    margin-bottom: 15px;
 }
 
 .middle .liked-by span {
@@ -52,6 +53,10 @@
 
 .middle .liked-by p {
     margin-left: 0.5rem;
+}
+
+.comments{
+    margin-top: 10px;
 }
 
 

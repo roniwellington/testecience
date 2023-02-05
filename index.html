@@ -28,7 +28,51 @@
             <div class="create">
                 <label class="btn btn-primary botao" for="create-post">Create</label>
                 <div class="profile-photo">
-                    <img src="images/profile-1.jpg" alt="">
+                    <img src="images/profile-1.jpg" alt="" onclick="toggleMenu()">
+                </div>
+            </div>
+            <!-- ===============PROFILE-DROP-DOWN-MENU============== -->
+
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="images/user-1.png" alt="">
+                        <div>
+                            <h3>Rayn Walton</h3>
+                            <a href="profile.html">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="">
+                        <p>Give feedback</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/setting.png" alt="">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/help.png" alt="">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/display.png" alt="">
+                        <p>display & Access</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/logout.png" alt="">
+                        <p>logout</p>
+                        <span>></span>
+                    </a>
+
                 </div>
             </div>
         </div>
@@ -50,7 +94,7 @@
                 </a>
 
                 <!-- ==========SIDEVAR=========== -->
-                <div class="sidebar">
+                <div class="sidebar" id="profileMenu">
                     <a href="index.html" class="menu-item active">
                         <span><i class="uil uil-home"></i></span>
                         <h3> Home</h3>
@@ -143,6 +187,7 @@
                     </a>
                 </div>
                 <!-- ==============END OF SIDEBAR=============== -->
+
                 <label for="create-post" class="btn btn-primary">Create Post</label>
             </div>
             <!-- ================END OF LEFT===================== -->
@@ -676,6 +721,7 @@
     </div>
 
     <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

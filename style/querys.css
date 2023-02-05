@@ -96,6 +96,15 @@
         gap: 0;
     }
 
+    .log{
+        padding-left: 15px;
+    }
+
+    .create{
+        padding-right: 15px;
+    }
+
+
     main .container .left {
         grid-column: 3/4;
         position: fixed;

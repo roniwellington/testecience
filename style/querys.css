@@ -186,6 +186,10 @@
         right: 0;
     }
 
+    .feeds .liked-by p {
+        font-size: 20px;
+    }
+
     /* =============NOTIFICATION POPUP============ */
     .left .notifications-popup {
         position: absolute;

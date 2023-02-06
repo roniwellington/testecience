@@ -149,6 +149,10 @@ main .container .right {
     right: 0;
 }
 
+.right .friend-requests .request img{
+    border-radius: 10px;
+}
+
 
 /*===============FRIEND REQUESTS================*/
 .right .friend-requests {

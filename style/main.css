@@ -208,6 +208,30 @@ main .container .left .profile {
     background: url("../images/story-6.jpg")no-repeat center center/cover; 
 }
 
+.middle .stories .fundo:nth-child(1){
+    background: url("../images/story-7.jpg")no-repeat center center/cover; 
+}
+
+.middle .stories .fundo:nth-child(2){
+    background: url("../images/story-8.jpg")no-repeat center center/cover; 
+}
+
+.middle .stories .fundo:nth-child(3){
+    background: url("../images/story-9.jpg")no-repeat center center/cover; 
+}
+
+.middle .stories .fundo:nth-child(4){
+    background: url("../images/story-10.jpg")no-repeat center center/cover; 
+}
+
+.middle .stories .fundo:nth-child(5){
+    background: url("../images/story-11.jpg")no-repeat center center/cover; 
+}
+
+.middle .stories .fundo:nth-child(6){
+    background: url("../images/story-12.jpg")no-repeat center center/cover; 
+}
+
 .middle .story .profile-photo {
     width: 2rem;
     height: 2rem;
